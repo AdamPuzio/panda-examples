@@ -1,0 +1,21 @@
+{
+  "name": "panda-example-cli",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "panda-example-cli": "./cli.js"
+  },
+  "scripts": {
+    "cli": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@panda/command": "file:../../../../@panda/command/0.2",
+    "ora": "^8.0.1"
+  }
+}
