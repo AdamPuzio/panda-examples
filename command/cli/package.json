@@ -15,7 +15,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "@panda/command": "file:../../../../@panda/command/0.2",
+    "@panda/command": "file:@panda/command",
     "ora": "^8.0.1"
   }
 }
